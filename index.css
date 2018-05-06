@@ -1,0 +1,168 @@
+/*タブレット対応*/
+@media only screen and (max-width: 768px) {
+body{
+}
+#form_lesson{
+  max-width: 100%;
+}
+img{
+max-width: 100%;
+}
+.bosyu{
+    max-width: 90%;
+}
+#p5{
+  max-width: 100%;
+  font-size: 14px;
+}
+#box1{
+  max-width: 100%;
+}
+.form_recruit{
+
+
+}
+p{
+  max-width: 100%;
+
+}
+
+#box1{
+  max-width: 90%;
+
+}
+input{
+  width:80%
+}
+textarea{
+  width:80%
+}
+}
+@media screen and (max-width: 480px) {
+  .bosyu{
+    max-width: 90%;
+  }
+  #box1{
+    max-width: 90%;
+
+  }
+  input{
+    width:60%
+  }
+  textarea{
+    width:60%
+  }
+}
+/*スマホ対応*/
+@media screen and (max-width: 320px) {
+
+.bosyu{
+  max-width: 90%;
+}
+#box1{
+  max-width: 90%;
+
+}
+}
+body{
+    margin:0 auto;
+    margin:auto;
+}
+#p1{
+    color:blue;
+}
+#img1{
+
+}
+
+#form_lesson{
+    margin:0 auto;
+    width:800px;
+    height:200px;
+
+}
+
+
+#title{
+border-radius: 50px;
+background-color:gray;
+margin:auto;
+width:800px;
+margin-bottom:30px;
+}
+
+#p3{
+  line-height: 80px;
+color:white;
+width:800px;
+height:80px;
+font-size:30px;
+text-align:center;
+}
+
+.bosyu{
+border-radius: 50px;
+border-top:3px solid gray;
+border-bottom:3px solid gray;
+border-right:3px solid gray;
+border-left:3px solid gray;
+width:800px;
+height:300px;
+margin:0 auto;
+margin-bottom:30px;
+
+}
+
+#p4{
+color:white;
+line-height: 80px;
+font-size:20px;
+margin:auto;
+width:800px;
+text-align:center;
+}
+#p5{
+
+width:800px;
+text-align:center;
+}
+
+#box1{
+    width:800px;
+    height:500px;
+    background-color:white;
+    margin:auto;
+    text-align:center;
+    border-radius: 50px;
+border-top:3px solid gray;
+border-bottom:3px solid gray;
+border-right:3px solid gray;
+border-left:3px solid gray;
+}
+.form_recruit{
+border-radius: 50px;
+width:800px;
+max-width: 100%;
+height:80px;
+margin:auto;
+background-color:gray;
+margin-bottom:30px;
+}
+#p6{
+color:white;
+line-height: 80px;
+font-size:30px;
+margin:auto;
+width:800px;
+text-align:center;
+}
+#table_form{
+margin:auto;
+font-size:20px;
+}
+.hissu{
+color:red;
+}
+form{
+
+}

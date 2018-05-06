@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="ja"><head>
+  <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>採用</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+<div id="form_lesson">
+        <img src="無題.png" width="800px" height="200px" />
+</div>
+
+
+
+  <div class="form_recruit">
+    <p id="p3">募集要項</p>
+
+</div>
+
+
+<div class="bosyu">
+    <div class="form_recruit">
+      <p id="p4">応募条件</p>
+        <p id="p5">18歳以上（高校生不可）で健康な方。</br>真剣にゲームを作る意思のある方。<br>【正社員応募の場合】<br>新卒＆既卒の方。<br>また、既卒者の職歴の有無は問いません。<br>【アルバイト応募の場合】<br>専門学生、学部生、院生、短大生などの在学生もご応募頂けます。</p>
+    </div>
+</div>
+
+
+
+
+
+<div id="box1">
+    <div class="form_recruit">
+    <p id="p6">応募フォーム</p>
+    </div>
+    <form action="form.php" method="post">
+    <dl>
+      <dt>
+        名前:(必須)
+      </dt>
+      <dd>
+        <input type="text" class="form-control" id="name" name="name" size="50" value="" />
+      </dd>
+      <dt>
+        メールアドレス:(必須)
+      </dt>
+      <dd>
+        <input type="text" class="form-control" id="mail" name="mail" placeholder="Mail" size="50" value="" />
+      </dd>
+      <dt>
+        <p id="tuiki">備考(必要があればお書きください)</p>
+      </dt>
+      <dd>
+        <textarea rows="10" cols="50" id="textarea" name="textarea" placeholder="ご質問等がありましたらご記入ください" value="" /></textarea>
+      </dd>
+    </dl>
+    <input type="submit" value="送信" />
+  </form>
+    <!--
+<table>
+<form action="/post" method="post" class="form-inline">
+    <table id="table_form">
+        <tr>
+
+            <th><label for="name" class="hissu">名前（必須）</label></th>
+
+        <td><input type="text" class="form-control" id="name" name="name" placeholder="Name" size="65"></td><br>
+        </tr>
+
+        <tr>
+
+            <th><label for="mail" class="hissu">メールアドレス(PC)（必須）</label></th>
+
+        <td><input type="text" class="form-control" id="mail" name="mail" placeholder="Mail" size="65"></td>
+        </tr>
+        <tr>
+            <th>自由記入欄(任意)</th>
+
+            <td><textarea rows="10" cols="50" id="textarea" name="textarea" placeholder="ご質問等がありましたらご記入ください"></textarea></td>
+        </tr>
+    </table>
+    <button type="submit" class="btn btn-default">送信する</button>
+
+</form>
+-->
+</div>
+
+</body>
+</html>
